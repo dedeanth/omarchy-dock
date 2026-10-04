@@ -1440,7 +1440,7 @@ Item {
             if (mouse && mouse.button === Qt.RightButton) {
                 Util.execDetached("omarchy-menu toggle root")
             } else {
-                Util.execDetached("omarchy-menu toggle apps")
+                Util.execDetached("omarchy-shell shell toggle tyrsolution.app-launcher '{}'")
             }
             return
         }
@@ -1488,7 +1488,7 @@ Item {
             if (mouse && mouse.button === Qt.RightButton) {
                 Util.execDetached("omarchy-menu toggle root")
             } else {
-                Util.execDetached("omarchy-menu toggle apps")
+                Util.execDetached("omarchy-shell shell toggle tyrsolution.app-launcher '{}'")
             }
             return
         }
